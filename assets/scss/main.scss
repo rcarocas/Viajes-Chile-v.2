@@ -1,0 +1,19 @@
+// Archivo manifiesto
+@import '../../node_modules/bootstrap/scss/functions',
+'../../node_modules/bootstrap/scss/variables',
+'../../node_modules/bootstrap/scss/variables-dark'; 
+	//1. abstracts
+    @import './abstracts/variables',
+    './abstracts/custom_bootstrap';
+	//2. vendor
+	@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+	//3. base
+	//4. layout
+	@import './layout/header',
+	'./layout/testimonios';
+	//5. components
+	@import './components/carousel',
+	'./components/destacados';
+	//6. pages
+	@import './pages/home'
+//7. themes

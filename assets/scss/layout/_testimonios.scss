@@ -1,0 +1,30 @@
+.testimonios{
+text-align: center;
+
+&__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+};
+
+&__post{
+    color: #978f7f;
+
+};
+
+&__post--txt{
+font-style: italic;
+    padding: 2rem 3rem;
+};
+
+&__post--img{
+    width: 100px;
+    border-radius: 50%;
+};
+
+&__post--sign{
+    padding-top: 1rem;
+    font-size:large;
+}
+
+}
